@@ -1,27 +1,38 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
-    background-color: #34558be9;
+    background-color: #4d7ecde9;
+    align-items: center;
+    
+}
+
+.containor{
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
 }
 
 .containor a{
-    width: 12%;
+    width: 15%;
     font-size: 25px;
     font-weight: 900;
-    /* margin: 10px 25px; */
     align-items: center;
     justify-content: space-between;
-    margin: 70px 15px;
+    margin: 100px 15px;
+
 }
+
 .containor h2{
     width: 15%;
     height: 7%;
     border: 1px solid black;
     border-radius: 5px;
-    position:fixed;
+
+    position:absolute;
     top: 5px;
     left: 45%;
     text-align: center;
@@ -43,4 +54,6 @@ a:link, a:visited {
   a:hover, a:active {
     background-color: rgba(0, 128, 0, 0.927);
     color: white;
+    transition: .5s;
+
 }
